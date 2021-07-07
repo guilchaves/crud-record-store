@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+
+  font-size: 1.2rem;
+  font-family: var(--noto-sans);
+
+  background-color: var(--coal);
+  color: var(--white);
+}
+
+.menu__section {
+  margin-left: 5rem;
+}
+
+.menu__nav {
+  font-family: var(--noto-sans);
+  margin-right: 3rem;
+}
+
+.menu__nav a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+/**
+*font-family: 'Montserrat', sans-serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+/**
+*font-family: 'Crimson Pro', serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+
+/**
+*font-family: 'Lora', serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lora');
+
+/**
+*Fonts: 
+* Crimson Pro / 200
+* Lora / 700
+* Montserrat / 700, 500, 400, 
+*
+*/
+
+/**
+*font-family: 'Roboto', sans-serif;
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+/**
+*font-family: 'Noto Sans JP', sans-serif
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+
+:root {
+  --roboto: 'Roboto', sans-serif;
+  --noto-sans: 'Noto Sans JP', sans-serif;
+
+  --grey: #a9a9a9;
+  --coal: #181719;
+  --white: #ffffff;
+
+  --mg-left-right: 0.75rem;
+}

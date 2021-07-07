@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Store</title>
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="../assets/css/base/base.css" />
+  <link rel="stylesheet" href="../assets/css/components/navigation.css" />
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <p class="menu__section">Store Supply</p>
+      <div class="menu__nav">
+        <a href="home.html">Stock</a>
+        <a href="insert.html">Add item</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <form class="container" data-form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Album Name</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insert album name" data-name>
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Artist</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insert artist name" data-artist>
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Year</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insert release year" data-year>
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Quantity</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Insert quantity in stock"data-quantity>
+    </div>
+    <div class="form-floating">
+      <label for="floatingTextarea">Notes</label>
+      <textarea class="form-control" placeholder="Any observations about the record." id="floatingTextarea" data-notes></textarea>
+    </div>
+    <button type="submit" class="btn">
+      Update
+    </button>
+
+  </form>
+</main>
+</body>
+<script type="module" src="../controller/updateContent-controller.js"></script>
+</html>
